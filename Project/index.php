@@ -2,7 +2,7 @@
 include_once "config.php";
 if(isset($_POST["search"])){
     $search=$_POST["search_text"];
-    $query="SELECT * FROM users WHERE sname LIKE '%".$search."%' OR email LIKE '%".$search."%' ORDER BY ASC";
+    $query="SELECT * FROM users WHERE id=$search ";
     $result=mysqli_query($mysqli,$query);
 }else{
     $query="SELECT * FROM users";
@@ -22,7 +22,7 @@ Home page
     <a href="add.php">ADD</a>
     <a href="index.php">VIEW</a>
     <form method="post" action="index.php">
-    <input type="text" name="search_text">
+    <input type="text" name="search_text" placeholder="From ~13">
     <button type="submit" name="search">SEARCH</button>
     </form>
     </header>
