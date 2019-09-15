@@ -1,0 +1,60 @@
+@charset "utf-8";
+.container/* CSS Document */
+{
+	background:url(../test.jpg);
+	border-image:auto;
+	
+}
+
+.logo{
+	
+	}
+
+.search
+{
+	background:#818181;
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:22px;
+	font-family:agency fb;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.origin{
+	background:url(../test.jpg);
+	border-image:auto;
+}
+.table{
+	font-family:agency fb;
+	font-size:25px;
+	padding:50px;
+	}
+.box{
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	font-family:segoe ui;
+	font-size:20px;
+	}
+	
+.container a{
+	font-decoration:none;
+	color:#00CB1D;
+	font-hyperlink:none;
+	text-decoration:none;	
+	font-family:agency fb;
+	font-size:24px;
+	}
+	
+.header {
+	padding:10px;
+	}
+
+	.link
+	{
+		padding-right:45px;
+		
+	}
